@@ -3,6 +3,7 @@ ZK 10.3.1
 
 * Bugs
   ZK-6075: URL exception in IBM WebSphere / Open Liberty
+  ZK-6011: an invalid post request still gets the http response 200
 
 * Upgrade Notes
   + URLs.sanitizeURL now returns non-http/https URLs unchanged. Applications that call this public API directly should not rely on it to validate or reject container-owned resource URL formats such as jar/wsjar URLs without an entry separator.
