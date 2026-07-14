@@ -10,6 +10,7 @@ ZK 10.3.1
 * Upgrade Notes
   + URLs.sanitizeURL now returns non-http/https URLs unchanged. Applications that call this public API directly should not rely on it to validate or reject container-owned resource URL formats such as jar/wsjar URLs without an entry separator.
   + Upgrade httpcore5 to 5.4.3 to fix vulnerabilities
+  + Upgrade jackson-databind to 2.22.1 to fix vulnerabilities
 
    --------
 ZK 10.3.0.1
