@@ -43,6 +43,7 @@ dependencyCheck {
 		}
     }
 	skipConfigurations = ['checkstyle']
+	suppressionFile = "${rootDir}/owasp-suppressions.xml"
 }
 
 def zkcmlDir = "$rootDir/../zkcml"
