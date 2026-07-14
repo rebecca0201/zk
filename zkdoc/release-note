@@ -12,6 +12,8 @@ ZK 10.3.1
   + Upgrade httpcore5 to 5.4.3 to fix vulnerabilities
   + Upgrade jackson-databind to 2.22.1 to fix vulnerabilities
   + Upgrade tomcat-jasper-el to 9.0.120 to fix vulnerabilities
+  + jasperreports (an optional dependency in zkex) update: JasperReports community edition 7.x contains the fix
+    (no fixed 6.x release exists), but upgrading to 7.x requires ZK public API changes so is deferred to ZK 11.
 
    --------
 ZK 10.3.0.1
